@@ -59,9 +59,9 @@ fun BasicCompossable(
             ),
         )
         Text(
-            text = "0",
+            text = "Ini adalah halaman login",
             fontWeight = FontWeight.Bold,
-            fontSize = 50.sp,
+            fontSize = 20.sp,
             )
 
         val imageModifier = Modifier
