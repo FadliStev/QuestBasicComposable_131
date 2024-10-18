@@ -72,6 +72,12 @@ fun BasicCompossable(
             contentDescription = null,
             modifier = imageModifier
             )
+
+        Text(
+            text = "Nama",
+
+            )
+
     }
 
 }
