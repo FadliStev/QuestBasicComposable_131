@@ -86,6 +86,11 @@ fun BasicCompossable(
 
         )
 
+        Text(
+            text = "20210140131",
+            fontSize = 50.sp,
+        )
+
     }
 
 }
