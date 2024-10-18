@@ -68,7 +68,7 @@ fun BasicCompossable(
             .size(400.dp)
             .background(Color.Yellow)
         Image(
-            painter = painterResource(id = R.drawable.fifa),
+            painter = painterResource(id = R.drawable.umy),
             contentDescription = null,
             modifier = imageModifier
             )
