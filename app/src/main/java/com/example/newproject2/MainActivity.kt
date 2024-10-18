@@ -51,11 +51,11 @@ fun BasicCompossable(
         modifier = Modifier.fillMaxSize()
     ){
         Text(
-            text = "Test text",
+            text = "Login",
             style = TextStyle(
-                fontSize = 50.sp,
+                fontSize = 70.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Red
+                color = Color.Black
             ),
         )
         Text(
