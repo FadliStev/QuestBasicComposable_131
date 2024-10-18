@@ -75,8 +75,15 @@ fun BasicCompossable(
 
         Text(
             text = "Nama",
-
+            fontSize = 20.sp
             )
+        
+        Text(
+            text = "Wiranto Akbar Fadlillah",
+            fontSize = 20.sp,
+
+
+        )
 
     }
 
