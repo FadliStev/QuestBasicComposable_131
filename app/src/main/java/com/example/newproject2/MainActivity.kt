@@ -91,6 +91,12 @@ fun BasicCompossable(
             fontSize = 50.sp,
         )
 
+        Image(
+            painter = painterResource(id = R.drawable.foto_pribadi),
+            contentDescription = null,
+
+            )
+
     }
 
 }
