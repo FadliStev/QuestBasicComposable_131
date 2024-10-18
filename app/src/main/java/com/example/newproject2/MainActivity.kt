@@ -80,8 +80,9 @@ fun BasicCompossable(
         
         Text(
             text = "Wiranto Akbar Fadlillah",
+            fontWeight = FontWeight.Bold,
             fontSize = 20.sp,
-
+            color = Color.Red
 
         )
 
