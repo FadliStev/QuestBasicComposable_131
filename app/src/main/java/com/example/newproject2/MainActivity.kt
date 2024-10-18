@@ -66,7 +66,6 @@ fun BasicCompossable(
 
         val imageModifier = Modifier
             .size(400.dp)
-            .background(Color.Yellow)
         Image(
             painter = painterResource(id = R.drawable.umy),
             contentDescription = null,
