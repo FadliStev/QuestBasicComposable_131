@@ -66,6 +66,7 @@ fun BasicCompossable(
 
         val imageModifier = Modifier
             .size(400.dp)
+            .padding(20.dp)
         Image(
             painter = painterResource(id = R.drawable.umy),
             contentDescription = null,
