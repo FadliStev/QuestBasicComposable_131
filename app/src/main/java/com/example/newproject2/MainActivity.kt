@@ -1,11 +1,15 @@
 package com.example.newproject2
 
+import android.graphics.drawable.shapes.OvalShape
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Scaffold
 import androidx.compose.material.Surface
@@ -13,7 +17,9 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
@@ -34,6 +40,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize()) {innerPadding ->
                     BasicCompossable(
                         modifier = Modifier.padding(innerPadding)
+
                     )
                 }
             }
@@ -66,7 +73,7 @@ fun BasicCompossable(
 
         val imageModifier = Modifier
             .size(250.dp)
-            .padding(20.dp)
+            .padding(10.dp)
         Image(
             painter = painterResource(id = R.drawable.umy),
             contentDescription = null,
@@ -88,12 +95,14 @@ fun BasicCompossable(
 
         Text(
             text = "20210140131",
-            fontSize = 50.sp,
+            fontSize = 40.sp,
         )
 
 
         val fotoukuran = Modifier
-            .size(400.dp)
+            .size(300.dp)
+            .clip(CircleShape)
+            .border(0.dp, color = Color.White)
 
         Image(
             painter = painterResource(id = R.drawable.foto_pribadi),
@@ -104,6 +113,9 @@ fun BasicCompossable(
     }
 
 }
+
+
+
 
 @Composable
 fun Greeting(name: String) {
