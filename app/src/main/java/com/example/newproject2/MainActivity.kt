@@ -91,10 +91,13 @@ fun BasicCompossable(
             fontSize = 50.sp,
         )
 
+
+        val fotoukuran = Modifier
+
         Image(
             painter = painterResource(id = R.drawable.foto_pribadi),
             contentDescription = null,
-
+            modifier = fotoukuran
             )
 
     }
